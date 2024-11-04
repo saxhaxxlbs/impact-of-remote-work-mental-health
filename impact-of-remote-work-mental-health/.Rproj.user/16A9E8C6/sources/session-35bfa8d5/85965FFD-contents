@@ -1,0 +1,39 @@
+---
+title: "README.md"
+output: html_document
+date: "2024-11-04"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Impact of Remote Work on Mental Health
+
+## Project Overview
+This project analyzes the impact of remote work on mental health across various industries and demographics. The analysis uses a dataset of 5,000 employees to explore factors like stress levels, productivity, work-life balance, and satisfaction with remote work.
+
+## Data Source
+The dataset, "Impact of Remote Work on Mental Health," includes information on demographics, work location, mental health status, productivity, and satisfaction. [If publicly available, include a link to the dataset source.]
+
+## Statistical Techniques and Methods
+This project uses a range of statistical and ML techniques:
+- **Descriptive Analysis**: Summary statistics and visualizations to understand data distribution.
+- **Comparative Analysis**: Testing differences across groups using t-tests or ANOVA.
+- **Predictive Modeling**: Regression or classification models to identify factors influencing mental health.
+- **Clustering**: Identifying patterns among different employee groups based on mental health and work satisfaction.
+
+## Repository Structure
+- **`data/`**: Contains raw and processed datasets.
+- **`scripts/`**: R scripts for data cleaning, analysis, and visualization.
+- **`output/`**: Generated figures, processed data, etc.
+- **`report/`**: Project report and supporting documentation.
+
+## How to Reproduce
+1. Clone the repository and open it in RStudio.
+2. Install required packages (listed in `scripts/requirements.R`).
+3. Run the scripts in `scripts/` to reproduce the analysis.
+
+## Expected Outcomes
+We aim to provide insights into remote work’s effect on mental health, highlighting areas where organizations can support remote employees.
+
